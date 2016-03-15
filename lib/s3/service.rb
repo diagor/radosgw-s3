@@ -70,7 +70,8 @@ module S3
     # Returns 443 or 80, depends on <tt>:use_ssl</tt> value from
     # initializer
     def port
-      use_ssl ? 443 : 80
+      #use_ssl ? 443 : 80
+      7480
     end
 
     def inspect #:nodoc:
